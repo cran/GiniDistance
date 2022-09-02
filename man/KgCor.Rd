@@ -23,7 +23,7 @@
     
   \deqn{ 
   \mathrm{gCor}_\kappa(X,Y)  = \frac{\sum_{k=1}^{K} p_k \left[ 2 {E}d_\kappa(X_k,X) - 
-  {E}d_\kappa(X_k,{X_k}') - {E}d_\kappa(X,X')\right]}{{E}d_\kappa(X,X')}.\label{gCork}}
+  {E}d_\kappa(X_k,{X_k}') - {E}d_\kappa(X,X')\right]}{{E}d_\kappa(X,X')}.}
   In this case, we use the default Gaussian distance function
   \deqn{
   d_\kappa(x,x') = \sqrt{1-e^{-\frac{|x-x'|_q^2}{\sigma^2}}},

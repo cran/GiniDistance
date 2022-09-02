@@ -23,7 +23,7 @@
     
   \deqn{
   \mathrm{gCov}_\kappa(X,Y) = \sum_{k=1}^{K} p_k \left[ 2 {E}d_\kappa(X_k,X) - 
-  {E}d_\kappa(X_k,{X_k}') - {E}d_\kappa(X,X')\right],\label{gCovk}}
+  {E}d_\kappa(X_k,{X_k}') - {E}d_\kappa(X,X')\right]}
   
   In this case, we use the default Gaussian distance function
   \deqn{

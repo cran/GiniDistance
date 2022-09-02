@@ -21,11 +21,11 @@
   Distance covariance was introduced in (\cite{Szekely07}) as a dependence measure between random variables \eqn{X \in {R}^p} and \eqn{Y \in {R}^q}. If \eqn{X} and \eqn{Y} are embedded into RKHS's induced by \eqn{\kappa_X} and \eqn{\kappa_Y}, respectively, the generalized distance covariance of \eqn{X} and \eqn{Y} is (\cite{Sejdinovic13}):
   \deqn{\begin{array}{c}
     \mathrm{dCov}_{\kappa_X,\kappa_Y}(X,Y) = {E}d_{\kappa_X}(X,X^{\prime})d_{\kappa_Y}(Y,Y^{\prime}) + {E}d_{\kappa_X}(X,X^{\prime}){E}d_{\kappa_Y}(Y,Y^{\prime}) \\
-    - 2{E}\left[{E}_{X^{\prime}}d_{\kappa_X}(X,X^{\prime}) {E}_{Y^{\prime}}d_{\kappa_Y}(Y,Y^{\prime})\right].\label{dCovkk}
+    - 2{E}\left[{E}_{X^{\prime}}d_{\kappa_X}(X,X^{\prime}) {E}_{Y^{\prime}}d_{\kappa_Y}(Y,Y^{\prime})\right].
     \end{array}
   }
   In the case of \eqn{Y} being categorical, one may embed it using a set difference kernel \eqn{\kappa_Y},
-  \deqn{\label{setdiff}
+  \deqn{
     \kappa_Y(y,y^{\prime}) = \left\{ \begin{array}{cc}
     \frac{1}{2} &  if \;y = y^{\prime},\\ 0 & otherwise.
     \end{array} \right.
@@ -33,7 +33,7 @@
   This is equivalent to embedding \eqn{Y} as a simplex with edges of unit length (\cite{Lyons13}), i.e., \eqn{L_k} is represented by a \eqn{K} dimensional vector of all zeros except its \eqn{k}-th dimension, which has the value \eqn{\frac{\sqrt{2}}{2}}. 
   The distance induced by \eqn{\kappa_Y} is called the set distance, i.e., \eqn{d_{\kappa_Y}(y,y^{\prime})=0} if \eqn{y=y^{\prime}} and \eqn{1} otherwise. Using the set distance, we have the following results on the generalized distance covariance between a numerical 
   and a categorical random variable.
-  \deqn{\mathrm{dCov}_{\kappa_X,\kappa_Y}(X,Y) := \mathrm{dCov}_{\kappa_X}(X,Y) \nonumber = \sum_{k=1}^{K} p_k^2 \left[2 {E}d_{\kappa_X}(X_k,X) - {E}d_{\kappa_X}(X_k,{X_k}^{\prime}) - {E}d_{\kappa_X}(X,X^{\prime}) \right].\label{dCovk}}
+  \deqn{\mathrm{dCov}_{\kappa_X,\kappa_Y}(X,Y) := \mathrm{dCov}_{\kappa_X}(X,Y) \nonumber = \sum_{k=1}^{K} p_k^2 \left[2 {E}d_{\kappa_X}(X_k,X) - {E}d_{\kappa_X}(X_k,{X_k}^{\prime}) - {E}d_{\kappa_X}(X,X^{\prime}) \right].}
     
 }           
   

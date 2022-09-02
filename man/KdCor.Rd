@@ -26,7 +26,7 @@
   
   \deqn{\begin{array}{c}
   \mathrm{dCov}_{\kappa_X,\kappa_Y}(X,Y) = {E}d_{\kappa_X}(X,X')d_{\kappa_Y}(Y,Y') + {E}d_{\kappa_X}(X,X'){E}d_{\kappa_Y}(Y,Y') \\
-  - 2{E}\left[{E}_{X'}d_{\kappa_X}(X,X') {E}_{Y'}d_{\kappa_Y}(Y,Y')\right].\label{dCovkk}
+  - 2{E}\left[{E}_{X'}d_{\kappa_X}(X,X') {E}_{Y'}d_{\kappa_Y}(Y,Y')\right].
   \end{array}
  }
     

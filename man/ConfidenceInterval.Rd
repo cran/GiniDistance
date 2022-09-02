@@ -22,7 +22,7 @@
   The sample size (number of rows) of the data must agree with the length of the label vector, and samples must not contain missing values. Arguments
   \code{x}, \code{y} are treated as data and labels. \code{alpha} if missing by default is 1, otherwise it is exponent on the Euclidean distance.
   
-  Suppose a sample data \eqn{ {\mathcal{D}} =\{(\boldmath{x}_i,y_i)\} } for \eqn{i = 1,...,n} available. The confidence interval is built upon the asymptotic normality of sample dependence statistic. The asymptotic variance is estimated by the Jackknife method. 
+  Suppose a sample data \eqn{ {\mathcal{D}} =\{(\bold{x}_i,y_i)\} } for \eqn{i = 1,...,n} available. The confidence interval is built upon the asymptotic normality of sample dependence statistic. The asymptotic variance is estimated by the Jackknife method. 
   More details refer to Shao and Tu (1996).   
 }
 \value{

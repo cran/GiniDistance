@@ -1,4 +1,4 @@
-62783dc1a1e14030f2134496c40130d0 *DESCRIPTION
+20e02b24b6d803cd63f589aa6c974e77 *DESCRIPTION
 66ccd3333f9bff6943383048fd192592 *NAMESPACE
 7fb5cbfc6a667a5f2e9d1b467faa80c0 *R/ConfidenceInterval.R
 a04cc93adc347258876809d9e7bf1175 *R/GiniDistance-package.R
@@ -18,13 +18,13 @@ df1ac89afd59db0cd75841d2cff36496 *R/gmd.R
 06323fd39440e8a5462226b4bf975189 *build/GiniDistance-manual.pdf
 57498527f649aba1f689ecb78028c65a *inst/extdata/LSVT_voice_rehabilitation.xlsx
 6a2d740def5d13ea6096272546f6d41e *inst/extdata/letter-recognition.data.txt
-250df41c41071e9cc4f4fd9a14b173b1 *man/ConfidenceInterval.Rd
+ef9a5d70f8efd3c65ecc9d0882e6f262 *man/ConfidenceInterval.Rd
 a10949689e18984fb3e6ba5bb7a7907c *man/CriticalValue.Rd
 21c043e40beb40d95ebe4f99a616cf12 *man/GiniDistance-package.Rd
-fc7121f3e1b7666543001fd20e8b73e5 *man/KdCor.Rd
-105661e6717b4e465827c55f3e1842dd *man/KdCov.Rd
-517132701ad03f705c25f11fee1daa13 *man/KgCor.Rd
-a4485cf15b773dc6a9272d632f90ab47 *man/KgCov.Rd
+0b44b394eb7f943eda7989995d43c624 *man/KdCor.Rd
+76d48ec06eab98890b04ff04df23594d *man/KdCov.Rd
+fe5cab1cad19a520726002e024570d18 *man/KgCor.Rd
+0804694b8155f266f85eb9d69aca975c *man/KgCov.Rd
 128d937ef1e6683c421f5ea4a28ebc0a *man/Kgmd.Rd
 94e45339e02637e5bcf9069ba3fda449 *man/PermutationTest.Rd
 06d9b040a8f338e1a2ec24c24d51b592 *man/RcppGmd.Rd
